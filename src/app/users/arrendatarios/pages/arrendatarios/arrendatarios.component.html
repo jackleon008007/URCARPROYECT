@@ -1,0 +1,11 @@
+<mat-toolbar class="nav-bar" color="primary">
+  <h1>Urcar</h1>
+  <h2> Arrendatarios</h2>
+  <div class="mat-spacer"></div>
+  <a mat-button [routerLink]="'/arrendatarios/home'" >Inicio</a>
+  <a mat-button [routerLink]="'/arrendatarios/profile'" >Perfil</a>
+  <a mat-button [routerLink]="'/arrendatarios/reservas'" >Reservas</a>
+  <a mat-button [routerLink]="'/arrendatarios/message'" >Mensajes</a>
+  <a mat-button [routerLink]="'/arrendatarios/configuration'" >configuración</a>
+</mat-toolbar>
+<router-outlet></router-outlet>

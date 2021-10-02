@@ -1,0 +1,55 @@
+.table-wrapper{
+  width:1024px;
+  margin: 50px auto;
+}
+
+table{
+  width:100%;
+}
+
+tr.editable-row{
+  background-color: #1976d2;
+
+}
+h1{
+  width:13vw;
+  font-size:50px;
+}
+h2{
+  margin-right:5vw;
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+
+.bar-options{
+  width:10%;
+  height: 80%;
+}
+
+.bar-options li{
+  display:block;
+  background-color: deepskyblue;
+  width:11vw;
+  height:5vw;
+
+}
+.bar-options li mat-card-header{
+  padding:1vw;
+}
+
+.bar-options li:hover{
+  background-color: #1976d2;
+
+}
+
+.nav-bar{
+  position: fixed;
+}
