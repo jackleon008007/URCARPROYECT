@@ -35,7 +35,7 @@ export class ReservaService {
   }
 
 
-  //para arrendatarios
+  //para arrendat
 
   create(item:any):Observable<Reserva>{
     return this.http.post<Reserva>(this.basePath,JSON.stringify(item),this.httpOptions)
