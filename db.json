@@ -143,45 +143,23 @@
       "description": "Lorem ipsum dolor sit amet. "
     },
     {
-      "id": 7,
-      "image": "assets/cars/car8.png",
-      "title": "NUEVO AUTO",
-      "price": 600,
-      "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda",
-      "apiId": "v1"
-    },
-    {
-      "id": 8,
-      "image": "assets/cars/car8.png",
-      "title": "NUEVO AUTO",
-      "price": 600,
-      "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda"
-    },
-    {
-      "id": 9,
-      "image": "assets/cars/car8.png",
-      "title": "NUEVO AU",
-      "price": 600,
-      "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda"
-    },
-    {
       "id": 10,
-      "image": "assets/cars/car8.png",
-      "title": "NUEVO AU",
+      "image": "/assets/cars/cars8.png",
+      "title": "NUEVO AUtO.......",
       "price": 600,
       "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda"
     },
     {
       "id": 11,
-      "image": "assets/cars/car8.png",
-      "title": "NUEVO AU",
+      "image": "/assets/cars/cars8.png",
+      "title": "NUEVO AUtO.......",
       "price": 600,
       "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda"
     },
     {
-      "id": 12,
-      "image": "assets/cars/car8.png",
-      "title": "NUEVO AU",
+      "id": 9,
+      "image": "/assets/cars/cars8.png",
+      "title": "NUEVO AUtO.......",
       "price": 600,
       "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda"
     }
