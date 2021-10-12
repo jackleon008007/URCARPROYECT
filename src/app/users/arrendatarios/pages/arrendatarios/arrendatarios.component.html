@@ -1,11 +1,16 @@
-<mat-toolbar class="nav-bar" color="primary">
-  <h1>Urcar</h1>
-  <h2> Arrendatarios</h2>
+<mat-toolbar class="mat-toolbar-nav">
+  <a mat-button [routerLink]="'/arrendatarios/home'" >
+    <mat-icon class="mat-icon-ucar" svgIcon="thumbs-up" aria-hidden="false" aria-label="Example thumbs up SVG icon"></mat-icon>
+    <span>URCAR</span>
+  </a>
   <div class="mat-spacer"></div>
   <a mat-button [routerLink]="'/arrendatarios/home'" >Inicio</a>
   <a mat-button [routerLink]="'/arrendatarios/profile'" >Perfil</a>
   <a mat-button [routerLink]="'/arrendatarios/reservas'" >Reservas</a>
   <a mat-button [routerLink]="'/arrendatarios/message'" >Mensajes</a>
   <a mat-button [routerLink]="'/arrendatarios/configuration'" >configuración</a>
+
 </mat-toolbar>
+
+
 <router-outlet></router-outlet>
