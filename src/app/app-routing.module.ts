@@ -19,15 +19,15 @@ import {ReservationsAComponent} from "./users/arrendadores/pages/reservations-a/
 import {PoliticAndPrivacyAComponent} from "./users/arrendadores/pages/politic-and-privacy-a/politic-and-privacy-a.component";
 import {ConfigurationAComponent} from "./users/arrendadores/pages/configuration-a/configuration-a.component";
 import { CarFormComponent}   from './users/arrendadores/pages/car-form/car-form.component';
-
+import { ChatComponent } from './component/chat/chat.component'
 
 const routes: Routes = [
 
-  
+
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},
   {path: '',redirectTo: 'login',pathMatch:'full'},
-  
+
   {path: 'arrendadores',redirectTo: 'arrendadores/cars',pathMatch:'full'},
   {path: 'arrendadores', component: ArrendadoresComponent,
     children:[
@@ -39,7 +39,8 @@ const routes: Routes = [
       {path: 'reservations-a', component: ReservationsAComponent},
       {path: 'politic-and-privacy-a', component: PoliticAndPrivacyAComponent},
       {path: 'create', component:CarFormComponent},
-    
+      {path: 'chat', component:ChatComponent}
+
 
     ]
   },
@@ -53,7 +54,8 @@ const routes: Routes = [
       {path: 'message', component: MessageComponent},
       {path: 'configuration', component: ConfigurationComponent},
       {path: 'account', component: AccountComponent},
-      {path: 'politic-and-privacy', component: PoliticAndPrivacyComponent}
+      {path: 'politic-and-privacy', component: PoliticAndPrivacyComponent},
+      {path: 'chat', component:ChatComponent}
     ]
 
   }

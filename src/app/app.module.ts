@@ -49,6 +49,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { LayoutModule } from '@angular/cdk/layout';
 import { NavComponent } from './users/arrendadores/pages/nav/nav.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { ChatComponent } from './component/chat/chat.component';
 
 
 
@@ -80,6 +81,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     PoliticAndPrivacyAComponent,
     CarFormComponent,
     NavComponent,
+    ChatComponent,
 
 
 

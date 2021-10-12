@@ -144,43 +144,7 @@
     },
     {
       "id": 7,
-      "image": "assets/cars/car8.png",
-      "title": "NUEVO AUTO",
-      "price": 600,
-      "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda",
-      "apiId": "v1"
-    },
-    {
-      "id": 8,
-      "image": "assets/cars/car8.png",
-      "title": "NUEVO AUTO",
-      "price": 600,
-      "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda"
-    },
-    {
-      "id": 9,
-      "image": "assets/cars/car8.png",
-      "title": "NUEVO AU",
-      "price": 600,
-      "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda"
-    },
-    {
-      "id": 10,
-      "image": "assets/cars/car8.png",
-      "title": "NUEVO AU",
-      "price": 600,
-      "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda"
-    },
-    {
-      "id": 11,
-      "image": "assets/cars/car8.png",
-      "title": "NUEVO AU",
-      "price": 600,
-      "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda"
-    },
-    {
-      "id": 12,
-      "image": "assets/cars/car8.png",
+      "image": "../assets/cars/car8.png",
       "title": "NUEVO AU",
       "price": 600,
       "description": "mejor auto de l mundo prar rod{pandnajdbsj,dvjav,jcahda"
@@ -214,12 +178,6 @@
     {
       "title": "Onix-Sedán",
       "price": 100,
-      "idCar": 1,
-      "id": 5
-    },
-    {
-      "title": "Onix-Sedán",
-      "price": 100,
       "idCar": 2,
       "id": 6
     },
@@ -240,6 +198,12 @@
       "price": 100,
       "idCar": 2,
       "id": 9
+    },
+    {
+      "title": "Onix-Sedán",
+      "price": 100,
+      "idCar": 1,
+      "id": 10
     }
   ]
 }
