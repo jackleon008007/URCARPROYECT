@@ -50,7 +50,7 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { NavComponent } from './users/arrendadores/pages/nav/nav.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { ChatComponent } from './component/chat/chat.component';
-
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 
 
@@ -110,7 +110,8 @@ import { ChatComponent } from './component/chat/chat.component';
     MatSortModule,
     MatSelectModule,
     LayoutModule,
-    MatSidenavModule
+    MatSidenavModule,
+    FlexLayoutModule
 
 
   ],
